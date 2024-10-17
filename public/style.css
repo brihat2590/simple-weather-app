@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0FA4AF, #8A2BE2);
+    height: 100vh;
+    margin: 0;
+    
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+    font-size: 3em; /* Larger font size */
+    font-weight: 700; /* Bold text */
+    text-align: center; /* Centers the text */
+    color: #fff; /* White text */
+    
+    background: linear-gradient(90deg, #00C9FF, #92FE9D); /* Gradient text color */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Fills the text with transparent to show the gradient */
+    
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    padding: 20px 0;
+    margin: 20px 0;
+
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; /* Use the same font for consistency */
+    background-color: #282c34; /* Dark background for contrast */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  form {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 600px; /* Set a max width for responsiveness */
+    min-height: 150px; /* Minimum height to make it spacious */
+    padding: 15px; /* Padding inside the textarea */
+    
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    
+    background-color: #f9f9f9; /* Soft background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D card effect */
+    
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    font-size: 1em; /* Standard text size */
+    color: #333; /* Text color */
+    
+    resize: vertical; /* Allow vertical resizing only */
+    outline: none; /* Removes the default blue border on focus */
+    transition: all 0.3s ease; /* Smooth transition for focus and hover states */
+  }
+  
+  .card:focus {
+    border-color: #00aaff; /* Changes border color on focus */
+    box-shadow: 0 6px 12px rgba(0, 170, 255, 0.2); /* Slightly darker shadow on focus */
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  
+  .loading {
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  
+  .error {
+    color: red;
+    font-size: 18px;
+    margin: 30px 0;
+  }
